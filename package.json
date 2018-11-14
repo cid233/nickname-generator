@@ -1,0 +1,13 @@
+{
+  "name": "nickname-generator",
+  "description": "generate unique nickname",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+  	"test": "node test/run.js"
+  },
+  "repository": "",
+  "author": "cid233",
+  "license": "MIT"
+}
