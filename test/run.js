@@ -13,7 +13,7 @@ if (!formatReg.test(nickname))
 const nicknameSet = new Set();
 const startTime = process.hrtime();
 
-for (var i = 0; i < 1000000; i++) {
+for (let i = 0; i < 1000000; i++) {
   nickname = generator.generateNickname();
   if (nicknameSet.has(nickname)) { // 重复了就退出循环并输出错误log
     console.error('nickname is duplicate!');
